@@ -1,0 +1,77 @@
+{
+  "date": "2025-10-06",
+  "phase": "Phase 9: Model Interpretation",
+  "model": {
+    "feature_set": "rfe_selected",
+    "n_features": 40,
+    "test_roc_auc": 0.7960069444444444
+  },
+  "top_10_features_shap": [
+    {
+      "feature": "risk_x_treatment",
+      "mean_abs_shap": 0.2981675863265991
+    },
+    {
+      "feature": "CV_risk_score",
+      "mean_abs_shap": 0.058229751884937286
+    },
+    {
+      "feature": "heart_rate",
+      "mean_abs_shap": 0.04203885421156883
+    },
+    {
+      "feature": "age_x_antiHER2",
+      "mean_abs_shap": 0.03991251811385155
+    },
+    {
+      "feature": "age_adjusted_LVEF",
+      "mean_abs_shap": 0.03722524270415306
+    },
+    {
+      "feature": "heart_rate_squared",
+      "mean_abs_shap": 0.02358432672917843
+    },
+    {
+      "feature": "LVEF_squared",
+      "mean_abs_shap": 0.02083696238696575
+    },
+    {
+      "feature": "heart_rate_cubed",
+      "mean_abs_shap": 0.01905437931418419
+    },
+    {
+      "feature": "BSA",
+      "mean_abs_shap": 0.01614455133676529
+    },
+    {
+      "feature": "LVDd",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "category_importance": {
+    "Cardiac Function": 0.05806220322847366,
+    "Cardiac Structure": 0.0,
+    "Anthropometric": 0.01614455133676529,
+    "Vital Signs": 0.0846775621175766,
+    "Treatment History": 0.03991251811385155,
+    "Risk Factors": 0.3563973307609558,
+    "Polynomial/Derived": 0.0
+  },
+  "shap_statistics": {
+    "sample_size": 300,
+    "mean_abs_shap_mean": 0.013879855163395405,
+    "mean_abs_shap_std": 0.04768351465463638,
+    "mean_abs_shap_max": 0.2981675863265991,
+    "mean_abs_shap_min": 0.0
+  },
+  "visualizations_created": {
+    "feature_importance": "01_feature_importance.png",
+    "shap_summary": "02_shap_summary_plot.png",
+    "shap_bar": "03_shap_bar_plot.png",
+    "shap_dependence": "04_01-06_shap_dependence_*.png (6 plots)",
+    "partial_dependence": "05_partial_dependence_plots.png",
+    "waterfall_plots": "06_01-04_waterfall_*.png (2 plots)",
+    "force_plots": "07_01-04_force_*.png (2 plots)",
+    "interaction_plots": "08_01-03_interaction_*.png (3 plots)"
+  }
+}

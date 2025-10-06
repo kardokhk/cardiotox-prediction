@@ -1,0 +1,79 @@
+[
+  {
+    "iteration": 1,
+    "stage": "tree_structure",
+    "params_tuned": [
+      "max_depth",
+      "min_child_weight"
+    ],
+    "best_params": {
+      "max_depth": 3,
+      "min_child_weight": 10
+    },
+    "cv_roc_auc": 0.6523365316275764,
+    "val_roc_auc": 0.5989583333333334,
+    "val_pr_auc": 0.15620573551608036
+  },
+  {
+    "iteration": 2,
+    "stage": "sampling",
+    "params_tuned": [
+      "subsample",
+      "colsample_bytree"
+    ],
+    "best_params": {
+      "colsample_bytree": 0.9,
+      "subsample": 0.8
+    },
+    "cv_roc_auc": 0.6647816114234024,
+    "val_roc_auc": 0.625,
+    "val_pr_auc": 0.17326133560204027
+  },
+  {
+    "iteration": 3,
+    "stage": "learning",
+    "params_tuned": [
+      "learning_rate",
+      "n_estimators"
+    ],
+    "best_params": {
+      "learning_rate": 0.01,
+      "n_estimators": 100
+    },
+    "cv_roc_auc": 0.6819736544549977,
+    "val_roc_auc": 0.7013888888888888,
+    "val_pr_auc": 0.2518939393939394
+  },
+  {
+    "iteration": 4,
+    "stage": "regularization",
+    "params_tuned": [
+      "reg_alpha",
+      "reg_lambda",
+      "gamma"
+    ],
+    "best_params": {
+      "gamma": 5,
+      "reg_alpha": 1,
+      "reg_lambda": 0
+    },
+    "cv_roc_auc": 0.690699909543193,
+    "val_roc_auc": 0.6961805555555555,
+    "val_pr_auc": 0.2560741341991342
+  },
+  {
+    "iteration": 5,
+    "stage": "imbalance_handling",
+    "params_tuned": [
+      "scale_pos_weight",
+      "max_delta_step"
+    ],
+    "best_params": {
+      "max_delta_step": 0,
+      "scale_pos_weight": 1
+    },
+    "cv_roc_auc": 0.690699909543193,
+    "val_roc_auc": 0.6961805555555555,
+    "val_pr_auc": 0.2560741341991342
+  }
+]

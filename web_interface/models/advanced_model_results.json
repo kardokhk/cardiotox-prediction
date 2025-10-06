@@ -1,0 +1,158 @@
+{
+  "best_sampling_strategy": "borderline_smote",
+  "resampled_train_size": 666,
+  "optimal_threshold": {
+    "best_f1": 0.78,
+    "balanced": 0.79,
+    "high_recall": 0.71
+  },
+  "final_threshold_used": 0.78,
+  "performance": {
+    "train": {
+      "roc_auc": 0.8367314683104157,
+      "pr_auc": 0.4480042356865974,
+      "f1_score": 0.32989690721649484,
+      "precision": 0.20512820512820512,
+      "recall": 0.8421052631578947,
+      "specificity": 0.6276276276276276,
+      "tp": 32,
+      "fp": 124,
+      "tn": 209,
+      "fn": 6
+    },
+    "validation": {
+      "roc_auc": 0.6996527777777778,
+      "pr_auc": 0.228865692497158,
+      "f1_score": 0.3,
+      "precision": 0.1875,
+      "recall": 0.75,
+      "specificity": 0.6388888888888888,
+      "tp": 6,
+      "fp": 26,
+      "tn": 46,
+      "fn": 2
+    },
+    "test": {
+      "roc_auc": 0.5902777777777777,
+      "pr_auc": 0.20024672078093847,
+      "f1_score": 0.14634146341463414,
+      "precision": 0.09090909090909091,
+      "recall": 0.375,
+      "specificity": 0.5833333333333334,
+      "tp": 3,
+      "fp": 30,
+      "tn": 42,
+      "fn": 5
+    }
+  },
+  "sampling_comparison": [
+    {
+      "strategy": "borderline_smote",
+      "train_samples": 666,
+      "pos_samples": 333,
+      "neg_samples": 333,
+      "train_roc_auc": 0.8367314683104157,
+      "val_roc_auc": 0.6996527777777778,
+      "test_roc_auc": 0.5902777777777777,
+      "train_pr_auc": 0.4480042356865974,
+      "val_pr_auc": 0.228865692497158,
+      "test_pr_auc": 0.20024672078093847
+    },
+    {
+      "strategy": "smote_enn",
+      "train_samples": 406,
+      "pos_samples": 231,
+      "neg_samples": 175,
+      "train_roc_auc": 0.8407223012486171,
+      "val_roc_auc": 0.6840277777777778,
+      "test_roc_auc": 0.5303819444444444,
+      "train_pr_auc": 0.43670571995590923,
+      "val_pr_auc": 0.33643633832374126,
+      "test_pr_auc": 0.21064397256233253
+    },
+    {
+      "strategy": "adasyn",
+      "train_samples": 673,
+      "pos_samples": 340,
+      "neg_samples": 333,
+      "train_roc_auc": 0.8470444128338865,
+      "val_roc_auc": 0.6805555555555556,
+      "test_roc_auc": 0.6501736111111112,
+      "train_pr_auc": 0.4231330261387459,
+      "val_pr_auc": 0.19146978481674584,
+      "test_pr_auc": 0.1749387456131878
+    },
+    {
+      "strategy": "svmsmote",
+      "train_samples": 533,
+      "pos_samples": 200,
+      "neg_samples": 333,
+      "train_roc_auc": 0.8416706179864074,
+      "val_roc_auc": 0.6753472222222222,
+      "test_roc_auc": 0.5972222222222222,
+      "train_pr_auc": 0.4371403165459768,
+      "val_pr_auc": 0.32755132629336975,
+      "test_pr_auc": 0.19256740423227664
+    },
+    {
+      "strategy": "smote_0.3",
+      "train_samples": 432,
+      "pos_samples": 99,
+      "neg_samples": 333,
+      "train_roc_auc": 0.853406037616564,
+      "val_roc_auc": 0.673611111111111,
+      "test_roc_auc": 0.6631944444444444,
+      "train_pr_auc": 0.4667724805083189,
+      "val_pr_auc": 0.20624803400611258,
+      "test_pr_auc": 0.22594285243741763
+    },
+    {
+      "strategy": "baseline",
+      "train_samples": 371,
+      "pos_samples": 38,
+      "neg_samples": 333,
+      "train_roc_auc": 0.8867551762288605,
+      "val_roc_auc": 0.671875,
+      "test_roc_auc": 0.7109375,
+      "train_pr_auc": 0.3955972982444389,
+      "val_pr_auc": 0.2636136951624084,
+      "test_pr_auc": 0.3580885780885781
+    },
+    {
+      "strategy": "smote_0.5",
+      "train_samples": 499,
+      "pos_samples": 166,
+      "neg_samples": 333,
+      "train_roc_auc": 0.8612296507033349,
+      "val_roc_auc": 0.6388888888888888,
+      "test_roc_auc": 0.6354166666666667,
+      "train_pr_auc": 0.45396078878955687,
+      "val_pr_auc": 0.1707078361428548,
+      "test_pr_auc": 0.1813186813186813
+    },
+    {
+      "strategy": "smote_tomek",
+      "train_samples": 624,
+      "pos_samples": 312,
+      "neg_samples": 312,
+      "train_roc_auc": 0.8579105421210684,
+      "val_roc_auc": 0.6302083333333334,
+      "test_roc_auc": 0.607638888888889,
+      "train_pr_auc": 0.4803637813835598,
+      "val_pr_auc": 0.17507026019957053,
+      "test_pr_auc": 0.19187864831247184
+    },
+    {
+      "strategy": "smote",
+      "train_samples": 666,
+      "pos_samples": 333,
+      "neg_samples": 333,
+      "train_roc_auc": 0.8609530583214794,
+      "val_roc_auc": 0.6284722222222221,
+      "test_roc_auc": 0.6111111111111112,
+      "train_pr_auc": 0.4605679797449846,
+      "val_pr_auc": 0.15585131562441568,
+      "test_pr_auc": 0.25410479623435056
+    }
+  ]
+}

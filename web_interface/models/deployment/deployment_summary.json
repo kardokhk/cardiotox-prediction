@@ -1,0 +1,84 @@
+{
+  "deployment_package": {
+    "created_date": "2025-10-06 06:12:08",
+    "model_version": "1.0",
+    "package_contents": [
+      {
+        "file": "cardiotoxicity_model.pkl",
+        "type": "Trained Model (Pickle)",
+        "description": "XGBoost classifier ready for deployment",
+        "size_kb": 299.49
+      },
+      {
+        "file": "cardiotoxicity_model.json",
+        "type": "Trained Model (JSON)",
+        "description": "XGBoost model in JSON format",
+        "size_kb": 174.94
+      },
+      {
+        "file": "preprocessing_pipeline.pkl",
+        "type": "Preprocessing Pipeline",
+        "description": "Handles missing values and data validation",
+        "size_kb": 0.83
+      },
+      {
+        "file": "feature_engineering_pipeline.pkl",
+        "type": "Feature Engineering Pipeline",
+        "description": "Creates 63 engineered features from 20 inputs",
+        "size_kb": 0.06
+      },
+      {
+        "file": "model_metadata.json",
+        "type": "Model Metadata",
+        "description": "Complete model documentation and configuration",
+        "size_kb": 12.76
+      },
+      {
+        "file": "feature_statistics.json",
+        "type": "Feature Statistics",
+        "description": "Training data statistics for imputation",
+        "size_kb": 1.52
+      },
+      {
+        "file": "USAGE_INSTRUCTIONS.md",
+        "type": "Documentation",
+        "description": "Comprehensive usage guide with examples",
+        "size_kb": 6.2
+      },
+      {
+        "file": "example_prediction.py",
+        "type": "Example Script",
+        "description": "Working example for patient predictions",
+        "size_kb": 4.33
+      },
+      {
+        "file": "requirements.txt",
+        "type": "Dependencies",
+        "description": "Python package requirements",
+        "size_kb": 0.31
+      }
+    ],
+    "total_size_kb": 500.44
+  },
+  "deployment_checklist": {
+    "model_artifacts": "\u2713 Complete",
+    "pipelines": "\u2713 Complete",
+    "metadata": "\u2713 Complete",
+    "documentation": "\u2713 Complete",
+    "examples": "\u2713 Complete",
+    "requirements": "\u2713 Complete"
+  },
+  "model_performance": {
+    "test_roc_auc": 0.7960069444444444,
+    "test_pr_auc": 0.4150245025245025,
+    "improvement_over_baseline": "+30.62%"
+  },
+  "next_steps": [
+    "Test deployment package in production environment",
+    "Integrate with clinical information system",
+    "Set up monitoring for model performance",
+    "Establish feedback loop for continuous improvement",
+    "Conduct external validation on new patient cohorts",
+    "Regular model retraining with updated data"
+  ]
+}

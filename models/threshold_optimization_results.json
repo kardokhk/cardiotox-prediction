@@ -1,0 +1,176 @@
+{
+  "optimization_date": "2025-10-06",
+  "validation_thresholds": {
+    "youden": {
+      "threshold": 0.13326875865459442,
+      "j_statistic": 0.4444444444444444,
+      "sensitivity": 0.75,
+      "specificity": 0.6944444444444444,
+      "method": "Youden's J (maximize sensitivity + specificity - 1)"
+    },
+    "topleft": {
+      "threshold": 0.13326875865459442,
+      "distance": 0.3947964000986638,
+      "sensitivity": 0.75,
+      "specificity": 0.6944444444444444,
+      "method": "Closest to perfect classifier (0,1)"
+    },
+    "f1_optimal": {
+      "threshold": 0.214499831199646,
+      "f1_score": 0.38095238090521544,
+      "method": "Maximize F1 score"
+    },
+    "fixed_sensitivity": {
+      "threshold": 0.13326875865459442,
+      "target_sensitivity": 0.8,
+      "actual_sensitivity": 0.75,
+      "specificity": 0.6944444444444444,
+      "method": "Fixed 80% sensitivity"
+    },
+    "cost_based": {
+      "threshold": 0.214499831199646,
+      "fn_cost": 5,
+      "fp_cost": 1,
+      "sensitivity": 0.5,
+      "specificity": 0.875,
+      "method": "Cost-based (FN cost = 5x FP cost)"
+    },
+    "prevalence": {
+      "threshold": 0.1,
+      "method": "Class prevalence as threshold"
+    }
+  },
+  "test_thresholds": {
+    "youden": {
+      "threshold": 0.13864177465438843,
+      "j_statistic": 0.6111111111111112,
+      "sensitivity": 0.875,
+      "specificity": 0.7361111111111112,
+      "method": "Youden's J (maximize sensitivity + specificity - 1)"
+    },
+    "topleft": {
+      "threshold": 0.13864177465438843,
+      "distance": 0.2919971672448422,
+      "sensitivity": 0.875,
+      "specificity": 0.7361111111111112,
+      "method": "Closest to perfect classifier (0,1)"
+    },
+    "f1_optimal": {
+      "threshold": 0.21510449051856995,
+      "f1_score": 0.45454545449917355,
+      "method": "Maximize F1 score"
+    },
+    "fixed_sensitivity": {
+      "threshold": 0.15388011932373047,
+      "target_sensitivity": 0.8,
+      "actual_sensitivity": 0.75,
+      "specificity": 0.7916666666666666,
+      "method": "Fixed 80% sensitivity"
+    },
+    "cost_based": {
+      "threshold": 0.21510449051856995,
+      "fn_cost": 5,
+      "fp_cost": 1,
+      "sensitivity": 0.625,
+      "specificity": 0.875,
+      "method": "Cost-based (FN cost = 5x FP cost)"
+    },
+    "prevalence": {
+      "threshold": 0.1,
+      "method": "Class prevalence as threshold"
+    }
+  },
+  "selected_threshold": {
+    "value": 0.13326875865459442,
+    "method": "Youden J statistic on validation set",
+    "rationale": "Balances sensitivity and specificity optimally for imbalanced data"
+  },
+  "performance_at_optimal_threshold": {
+    "train": {
+      "threshold": 0.13326875865459442,
+      "roc_auc": 0.7991939307728781,
+      "pr_auc": 0.32655922402044935,
+      "accuracy": 0.6442048517520216,
+      "balanced_accuracy": 0.708550655919077,
+      "sensitivity": 0.7894736842105263,
+      "specificity": 0.6276276276276276,
+      "precision": 0.19480519480519481,
+      "npv": 0.9631336405529954,
+      "f1_score": 0.3125,
+      "mcc": 0.2566641685512244,
+      "tp": 30,
+      "fp": 124,
+      "tn": 209,
+      "fn": 8,
+      "predicted_positive": 154,
+      "predicted_negative": 217,
+      "actual_positive": 38,
+      "actual_negative": 333
+    },
+    "validation": {
+      "threshold": 0.13326875865459442,
+      "roc_auc": 0.7274305555555556,
+      "pr_auc": 0.2645523856342481,
+      "accuracy": 0.7,
+      "balanced_accuracy": 0.7222222222222222,
+      "sensitivity": 0.75,
+      "specificity": 0.6944444444444444,
+      "precision": 0.21428571428571427,
+      "npv": 0.9615384615384616,
+      "f1_score": 0.3333333333333333,
+      "mcc": 0.2795426231258449,
+      "tp": 6,
+      "fp": 22,
+      "tn": 50,
+      "fn": 2,
+      "predicted_positive": 28,
+      "predicted_negative": 52,
+      "actual_positive": 8,
+      "actual_negative": 72
+    },
+    "test": {
+      "threshold": 0.13326875865459442,
+      "roc_auc": 0.7960069444444444,
+      "pr_auc": 0.4150245025245025,
+      "accuracy": 0.725,
+      "balanced_accuracy": 0.7916666666666667,
+      "sensitivity": 0.875,
+      "specificity": 0.7083333333333334,
+      "precision": 0.25,
+      "npv": 0.9807692307692307,
+      "f1_score": 0.3888888888888889,
+      "mcc": 0.3668996928526714,
+      "tp": 7,
+      "fp": 21,
+      "tn": 51,
+      "fn": 1,
+      "predicted_positive": 28,
+      "predicted_negative": 52,
+      "actual_positive": 8,
+      "actual_negative": 72
+    }
+  },
+  "default_threshold_performance": {
+    "test": {
+      "threshold": 0.5,
+      "roc_auc": 0.7960069444444444,
+      "pr_auc": 0.4150245025245025,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.5,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "precision": 0,
+      "npv": 0.9,
+      "f1_score": 0.0,
+      "mcc": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 72,
+      "fn": 8,
+      "predicted_positive": 0,
+      "predicted_negative": 80,
+      "actual_positive": 8,
+      "actual_negative": 72
+    }
+  }
+}

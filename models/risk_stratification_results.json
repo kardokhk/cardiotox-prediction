@@ -1,0 +1,56 @@
+{
+  "test_set": {
+    "risk_categories": {
+      "Low (5-15%)": {
+        "n_patients": 59,
+        "n_events": 2,
+        "observed_rate": 0.0339,
+        "mean_predicted_prob": 0.11630000174045563,
+        "min_prob": 0.09880000352859497,
+        "max_prob": 0.14980000257492065,
+        "positive_rate": 3.4
+      },
+      "Moderate (15-30%)": {
+        "n_patients": 21,
+        "n_events": 6,
+        "observed_rate": 0.2857,
+        "mean_predicted_prob": 0.2214999943971634,
+        "min_prob": 0.15389999747276306,
+        "max_prob": 0.2615000009536743,
+        "positive_rate": 28.6
+      }
+    },
+    "top_percentile_capture": {
+      "top_10pct": {
+        "n_patients": 8,
+        "n_cases_captured": 3,
+        "total_cases": 8,
+        "capture_rate_pct": 37.5
+      },
+      "top_20pct": {
+        "n_patients": 16,
+        "n_cases_captured": 5,
+        "total_cases": 8,
+        "capture_rate_pct": 62.5
+      },
+      "top_30pct": {
+        "n_patients": 25,
+        "n_cases_captured": 6,
+        "total_cases": 8,
+        "capture_rate_pct": 75.0
+      },
+      "top_40pct": {
+        "n_patients": 32,
+        "n_cases_captured": 7,
+        "total_cases": 8,
+        "capture_rate_pct": 87.5
+      },
+      "top_50pct": {
+        "n_patients": 40,
+        "n_cases_captured": 7,
+        "total_cases": 8,
+        "capture_rate_pct": 87.5
+      }
+    }
+  }
+}

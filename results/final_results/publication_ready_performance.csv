@@ -1,0 +1,4 @@
+Split,N,Cases,ROC AUC,Sensitivity,Specificity,PPV,NPV
+Training,371,38,0.8,0.789,0.628,0.195,0.963
+Validation,80,8,0.73,0.750,0.694,0.214,0.962
+Test,80,8,0.8,0.875,0.708,0.250,0.981

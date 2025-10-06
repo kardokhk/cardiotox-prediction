@@ -1,0 +1,40 @@
+{
+  "model_type": "default",
+  "feature_set": "all_features",
+  "n_features": 88,
+  "scale_pos_weight": null,
+  "metrics": {
+    "train": {
+      "roc_auc": 1.0,
+      "pr_auc": 0.9999999999999999,
+      "f1_score": 1.0,
+      "accuracy": 1.0
+    },
+    "validation": {
+      "roc_auc": 0.6111111111111112,
+      "pr_auc": 0.15234513449469755,
+      "f1_score": 0.0,
+      "accuracy": 0.8625
+    },
+    "test": {
+      "roc_auc": 0.609375,
+      "pr_auc": 0.3488560150042708,
+      "f1_score": 0.2222222222222222,
+      "accuracy": 0.9125
+    }
+  },
+  "confusion_matrix": {
+    "validation": {
+      "TN": 69,
+      "FP": 3,
+      "FN": 8,
+      "TP": 0
+    },
+    "test": {
+      "TN": 72,
+      "FP": 0,
+      "FN": 7,
+      "TP": 1
+    }
+  }
+}

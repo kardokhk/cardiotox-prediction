@@ -1,0 +1,136 @@
+{
+  "model_name": "Cardiotoxicity Prediction Model - Final Best",
+  "version": "1.0",
+  "date": "2025-10-06",
+  "phase": "Phase 9B: Best Model Selection",
+  "feature_selection_method": "RFE (Recursive Feature Elimination)",
+  "feature_set": "rfe_selected",
+  "n_features": 40,
+  "features": [
+    "heart_rate",
+    "weight",
+    "height",
+    "LVEF",
+    "LAd",
+    "PWT",
+    "LVSd",
+    "LVDd",
+    "smoker",
+    "RWT",
+    "BSA",
+    "BMI_overweight",
+    "BMI",
+    "exsmoker",
+    "LVMI",
+    "LV_mass_approx",
+    "age_LVEF_interaction",
+    "age_adjusted_LVEF",
+    "cumulative_cardiotoxic_treatment",
+    "CV_risk_score",
+    "LAVi",
+    "Fractional_Shortening",
+    "prior_treatment_count",
+    "age_cubed",
+    "BMI_x_combination",
+    "risk_x_treatment",
+    "LVEF_x_n_risk_factors",
+    "LVEF_x_HTA",
+    "age_squared",
+    "age_x_AC",
+    "LVEF_x_AC",
+    "age_x_antiHER2",
+    "LVEF_squared",
+    "LVEF_cubed",
+    "heart_rate_squared",
+    "heart_rate_cubed",
+    "LVDd_to_BSA",
+    "LAd_to_LVDd",
+    "LVSd_to_LVDd",
+    "weight_to_height"
+  ],
+  "hyperparameters": {
+    "colsample_bylevel": 0.5209373494866074,
+    "colsample_bynode": 0.7520225915617307,
+    "colsample_bytree": 0.5298311116653025,
+    "gamma": 3.9248980123423016,
+    "learning_rate": 0.26913665694390104,
+    "max_delta_step": 2,
+    "max_depth": 5,
+    "max_leaves": 22,
+    "min_child_weight": 5,
+    "n_estimators": 427,
+    "reg_alpha": 9.924232665070894,
+    "reg_lambda": 7.562339421860171,
+    "scale_pos_weight": 1.629032868306186,
+    "subsample": 0.8563561641032563
+  },
+  "performance": {
+    "train": {
+      "roc_auc": 0.7991939307728781,
+      "pr_auc": 0.32655922402044935
+    },
+    "validation": {
+      "roc_auc": 0.7274305555555556,
+      "pr_auc": 0.2645523856342481
+    },
+    "test": {
+      "roc_auc": 0.7960069444444444,
+      "pr_auc": 0.4150245025245025
+    }
+  },
+  "comparison_with_phase7": {
+    "phase7_features": 88,
+    "phase7_test_auc": 0.7604,
+    "phase9_features": 40,
+    "phase9_test_auc": 0.7960069444444444,
+    "improvement": 4.68265971126308,
+    "feature_reduction_pct": 54.54545454545454
+  },
+  "top_features": [
+    {
+      "feature": "CV_risk_score",
+      "importance": 0.17032697796821594
+    },
+    {
+      "feature": "heart_rate_cubed",
+      "importance": 0.13873133063316345
+    },
+    {
+      "feature": "risk_x_treatment",
+      "importance": 0.13527168333530426
+    },
+    {
+      "feature": "age_adjusted_LVEF",
+      "importance": 0.12319512665271759
+    },
+    {
+      "feature": "LVEF_squared",
+      "importance": 0.09897153824567795
+    },
+    {
+      "feature": "heart_rate",
+      "importance": 0.08904730528593063
+    },
+    {
+      "feature": "heart_rate_squared",
+      "importance": 0.08773957192897797
+    },
+    {
+      "feature": "age_x_antiHER2",
+      "importance": 0.08025939017534256
+    },
+    {
+      "feature": "BSA",
+      "importance": 0.07645708322525024
+    },
+    {
+      "feature": "LVDd",
+      "importance": 0.0
+    }
+  ],
+  "model_files": {
+    "model": "final_best_model.json",
+    "features": "final_best_features.json",
+    "feature_importance": "final_best_feature_importance.csv"
+  }
+}
