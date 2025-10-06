@@ -39,12 +39,7 @@ Try the model yourself:
 ## 📚 Complete Documentation (Choose Your Path)
 
 ### For Assessment Reviewers
-1. **[SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md)** ⭐ **Start here for assessment**
-   - Direct mapping of Tasks 1 & 2 to deliverables
-   - Explicit coverage of all requirements
-   - Quick reference checklist
-
-2. **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)**
+1. **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)**
    - High-level project overview
    - Key achievements and performance
    - Skills demonstrated
