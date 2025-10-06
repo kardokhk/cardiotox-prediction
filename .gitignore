@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -28,6 +29,7 @@ wheels/
 
 # Virtual environments
 venv/
+.venv/
 ENV/
 env/
 
@@ -42,13 +44,11 @@ env/
 .DS_Store
 Thumbs.db
 
-# Large model files (optional - uncomment if you don't want to push large models)
-# *.pkl
-# *.joblib
-# models/*.json
-
-# Data files (optional - uncomment if datasets are too large)
-# dataset/*.csv
+# Large data files (GitHub has 100MB file limit)
+dataset/*.zip
+dataset/*.rar
+dataset/IMAGES.rar
+dataset/22650748.zip
 
 # Temporary files
 *.log
