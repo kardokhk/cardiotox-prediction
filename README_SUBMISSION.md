@@ -1,4 +1,4 @@
-# 🫀 Cardiotoxicity Prediction in HER2+ Breast Cancer Patients
+# Cardiotoxicity Prediction in HER2+ Breast Cancer Patients
 ## Machine Learning Assessment for Postdoc Position
 
 [![Model Performance](https://img.shields.io/badge/Test%20ROC%20AUC-0.80-brightgreen.svg)](https://huggingface.co/spaces/kardokh/CTRCD)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 
 This project presents a comprehensive machine learning solution for predicting **Cancer Treatment-Related Cardiac Dysfunction (CTRCD)** in HER2+ breast cancer patients undergoing cardiotoxic chemotherapy. The work demonstrates:
 
@@ -20,7 +20,7 @@ This project presents a comprehensive machine learning solution for predicting *
 
 ---
 
-## 🎯 Assessment Requirements Coverage
+## Assessment Requirements Coverage
 
 ### ✅ Task 1: Machine Learning Implementation
 
@@ -50,7 +50,7 @@ This project presents a comprehensive machine learning solution for predicting *
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Live Demo (Recommended)
 **Visit the deployed web application:** [https://huggingface.co/spaces/kardokh/CTRCD](https://huggingface.co/spaces/kardokh/CTRCD)
@@ -85,14 +85,13 @@ python app.py
 
 ---
 
-## 📊 Project Performance Summary
+## Project Performance Summary
 
 ### Model Performance Metrics
 
 | Metric | Train | Validation | Test |
 |--------|-------|------------|------|
 | **ROC AUC** | 0.799 | 0.727 | **0.796** |
-| **PR AUC** | 0.327 | 0.265 | **0.415** |
 | **Sensitivity @ Optimal Threshold** | 78.9% | 75.0% | **87.5%** |
 | **Specificity @ Optimal Threshold** | 62.8% | 69.4% | **70.8%** |
 
@@ -112,7 +111,7 @@ python app.py
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 cardiotox_work_3/
@@ -167,13 +166,13 @@ cardiotox_work_3/
 │       └── feature_categories.json     Feature categorization
 │
 ├── results/
-│   ├── figures/                      ⭐ Publication-quality visualizations
+│   ├── figures/                      ⭐ visualizations
 │   │   ├── 36_roc_curves_clean.png     ROC curves (train/val/test)
 │   │   ├── 37_confusion_matrices_clean.png Optimized confusion matrices
 │   │   ├── 38_risk_stratification.png  Risk category analysis
 │   │   ├── 39_threshold_selection.png  Threshold optimization
 │   │   └── 40_calibration_curve.png    Model calibration
-│   ├── for_report/                      Clean versions for presentation
+│   ├── final_results/                      Clean versions for presentation
 │   ├── interpretability/                SHAP analysis results (17 plots)
 │   │   ├── shap_summary.png            Global feature importance
 │   │   ├── shap_dependence_*.png       Feature effect plots
@@ -188,9 +187,6 @@ cardiotox_work_3/
 │   ├── requirements.txt                Web app dependencies
 │   └── models/                         Model files (symlink)
 │
-├── lit_review/                       ⭐ Background research
-│   ├── cardiotoxicity_datasets.md      Dataset selection justification
-│   └── ml_for_cardiotoxicity.md        Literature review
 │
 ├── dataset/                             Original data source
 │   ├── BC_cardiotox_clinical_and_functional_variables.csv
@@ -207,7 +203,7 @@ cardiotox_work_3/
 
 ---
 
-## 🔬 Technical Implementation Highlights
+## Technical Implementation Highlights
 
 ### 1. Data Sourcing Strategy
 
