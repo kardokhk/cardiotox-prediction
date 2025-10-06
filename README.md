@@ -1,4 +1,4 @@
-# 🫀 Cardiotoxicity Prediction in HER2+ Breast Cancer Patients
+# Cardiotoxicity Prediction in HER2+ Breast Cancer Patients
 
 [![Model Performance](https://img.shields.io/badge/Test%20ROC%20AUC-0.80-brightgreen.svg)](https://huggingface.co/spaces/kardokh/CTRCD)
 [![Improvement](https://img.shields.io/badge/Baseline%20Improvement-+30.6%25-success.svg)](https://huggingface.co/spaces/kardokh/CTRCD)
@@ -9,7 +9,7 @@
 
 > **A comprehensive machine learning solution for predicting Cancer Treatment-Related Cardiac Dysfunction (CTRCD) in HER2+ breast cancer patients undergoing cardiotoxic chemotherapy.**
 
-## 🎯 Overview
+## Overview
 
 This project presents an end-to-end machine learning pipeline that achieves **80% ROC AUC** in predicting cardiotoxicity, representing a **30.6% improvement** over baseline models. The solution includes:
 
@@ -19,7 +19,7 @@ This project presents an end-to-end machine learning pipeline that achieves **80
 - ✅ **Interpretable:** SHAP analysis revealing clinically meaningful predictors
 - ✅ **Comprehensive:** 12-phase development pipeline from EDA to deployment
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Try the Live Demo (Recommended)
 **Visit:** [https://huggingface.co/spaces/kardokh/CTRCD](https://huggingface.co/spaces/kardokh/CTRCD)
@@ -47,7 +47,7 @@ python app.py
 # Visit http://localhost:7860
 ```
 
-## 📊 Key Results
+## Key Results
 
 ### Model Performance
 
@@ -67,7 +67,7 @@ python app.py
 | Random Search | 88 features, 5000 trials | 0.760 | +24.8% |
 | **Feature Selection** | **40 features, RFE** | **0.796** | **+30.6%** |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 cardiotox_prediction/
@@ -111,7 +111,7 @@ cardiotox_prediction/
     └── requirements.txt               # Web dependencies
 ```
 
-## 🔬 Technical Highlights
+## Technical Highlights
 
 ### Feature Engineering
 - **Input:** 20 baseline clinical features
@@ -131,7 +131,7 @@ cardiotox_prediction/
 4. **Cumulative Treatment** (9.4%) - Treatment burden
 5. **Age-Adjusted LVEF** (7.5%) - Normalized cardiac function
 
-## 🏥 Clinical Application
+## Clinical Application
 
 ### Risk Stratification
 
@@ -148,7 +148,7 @@ cardiotox_prediction/
 - **Cardioprotective Intervention:** Prophylactic ACE inhibitors/beta-blockers
 - **Improved Outcomes:** Prevent irreversible cardiac damage
 
-## 📚 Documentation
+## Documentation
 
 - **[START_HERE.md](START_HERE.md)** - Quick start guide for reviewers
 - **[SCIENTIFIC_REPORT.md](SCIENTIFIC_REPORT.md)** - One-page scientific report
@@ -171,7 +171,7 @@ cardiotox_prediction/
 - Model: XGBoost 2.1.1
 - Hosting: Hugging Face Spaces
 
-## 📊 Visualizations
+## Visualizations
 
 ### Model Performance
 ![ROC Curves](results/figures/36_roc_curves_clean.png)
@@ -182,7 +182,7 @@ cardiotox_prediction/
 ### Risk Stratification
 ![Risk Stratification](results/figures/38_risk_stratification.png)
 
-## 🔧 Requirements
+## Requirements
 
 ```
 Python 3.8+
@@ -215,14 +215,14 @@ Available: https://figshare.com/articles/dataset/cardiotoxicity_breast_cancer/
 }
 ```
 
-## ⚠️ Limitations
+## Limitations
 
 1. **Sample Size:** 531 patients limits deep learning approaches
 2. **Single Center:** May not generalize to diverse populations
 3. **Cancer Type:** HER2+ breast cancer specific
 4. **External Validation:** Not yet validated on independent cohorts
 
-## 🚧 Future Directions
+## Future Directions
 
 - Multi-center external validation
 - Prospective clinical trial
@@ -230,11 +230,11 @@ Available: https://figshare.com/articles/dataset/cardiotoxicity_breast_cancer/
 - Temporal models with time-varying covariates
 - Extension to other cancer types
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - University of A Coruña for providing the dataset
 - XGBoost development team
