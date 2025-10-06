@@ -1,6 +1,6 @@
 # Executive Summary: Cardiotoxicity Prediction ML Project
 
-## 🎯 Project at a Glance
+## Project at a Glance
 
 **Objective:** Predict cancer treatment-related cardiac dysfunction (CTRCD) in HER2+ breast cancer patients  
 **Model Performance:** Test ROC AUC = **0.80** (30.6% improvement over baseline)  
@@ -10,7 +10,7 @@
 
 ---
 
-## 🏆 Key Achievements
+## Key Achievements
 
 ### 1. Strong Predictive Performance
 - **Test ROC AUC: 0.80** - Strong discriminative ability for imbalanced medical data
@@ -41,7 +41,7 @@
 
 ---
 
-## 📊 Model Performance Summary
+## Model Performance Summary
 
 | Metric | Value | Clinical Interpretation |
 |--------|-------|------------------------|
@@ -56,7 +56,7 @@
 
 ---
 
-## 🔬 Technical Highlights
+## Technical Highlights
 
 ### Data Strategy
 - **Dataset:** University of A Coruña (531 HER2+ breast cancer patients)
@@ -84,7 +84,7 @@
 
 ---
 
-## 🏥 Clinical Impact
+## Clinical Impact
 
 ### Risk Stratification
 The model enables evidence-based patient stratification:
@@ -105,7 +105,7 @@ The model enables evidence-based patient stratification:
 
 ---
 
-## 📁 Deliverables
+## Deliverables
 
 ### Assessment Requirements (Tasks 1 & 2)
 
@@ -150,31 +150,7 @@ The model enables evidence-based patient stratification:
 
 ---
 
-## 🎓 Skills Demonstrated
-
-### Technical Excellence
-✅ **Machine Learning:** Model development, optimization, validation  
-✅ **Data Science:** EDA, preprocessing, feature engineering  
-✅ **Statistical Analysis:** Cross-validation, threshold optimization, calibration  
-✅ **Interpretability:** SHAP analysis, feature importance, clinical validation  
-✅ **Software Engineering:** Clean code, documentation, modular design  
-✅ **Deployment:** Web application, production package, API design  
-
-### Domain Expertise
-✅ **Cardiology:** Cardiac structure/function understanding, risk stratification  
-✅ **Oncology:** Chemotherapy protocols, cardiotoxicity mechanisms  
-✅ **Clinical Research:** Study design, validation methodology  
-✅ **Medical AI:** Healthcare ML best practices, regulatory awareness  
-
-### Research Capabilities
-✅ **Literature Review:** Systematic dataset evaluation, methodology justification  
-✅ **Scientific Writing:** Clear, concise, structured reporting  
-✅ **Critical Thinking:** Model selection rationale, limitation acknowledgment  
-✅ **Communication:** Technical content accessible to clinical audience  
-
----
-
-## 📈 Project Evolution
+## Project Evolution
 
 ### Development Progression
 
@@ -265,7 +241,7 @@ The model enables evidence-based patient stratification:
 
 ---
 
-## 🎯 Bottom Line
+## Bottom Line
 
 This project demonstrates **comprehensive ML development skills**, **clinical AI expertise**, and **production deployment capabilities** suitable for a postdoc position in computational cardio-oncology research.
 
@@ -282,5 +258,4 @@ This project demonstrates **comprehensive ML development skills**, **clinical AI
 
 *Project Status:* **✅ Assessment Ready**  
 *Date:* October 2025  
-*Model Version:* 1.0  
 *Live Demo:* [https://huggingface.co/spaces/kardokh/CTRCD](https://huggingface.co/spaces/kardokh/CTRCD)
