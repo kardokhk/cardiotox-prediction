@@ -2,7 +2,7 @@
 Phase 2: Data Preprocessing
 Handles missing values, creates train/validation/test splits, and prepares data for modeling
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -205,3 +205,4 @@ print(f"  ✓ Stratified splits maintain class balance")
 print(f"  ✓ Train/Val/Test: {len(y_train)}/{len(y_val)}/{len(y_test)} samples")
 print(f"\nReady for feature engineering (Phase 3)")
 print("="*80)
+
