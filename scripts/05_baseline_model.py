@@ -8,7 +8,7 @@ Goals:
 3. Evaluate baseline performance (ROC AUC, PR AUC, confusion matrix)
 4. Establish performance benchmarks
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -527,3 +527,4 @@ print(f"   - Visualizations: 4 figures saved to {RESULTS_DIR}")
 print("\n" + "="*80)
 print("Ready for Phase 6: Model Optimization")
 print("="*80)
+
