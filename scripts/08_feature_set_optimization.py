@@ -9,7 +9,7 @@ Goals:
 4. Identify optimal feature set for the optimized model
 5. Evaluate best configuration on test set
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -544,3 +544,4 @@ print("\n" + "="*80)
 print("✓ Feature set optimization complete!")
 print("✓ Ready for Phase 9: Model Interpretation")
 print("="*80)
+
