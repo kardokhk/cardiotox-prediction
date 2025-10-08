@@ -9,7 +9,7 @@ Key concepts from cardiology literature:
 - Age-cardiac function interactions
 - Cardiovascular risk scores
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -396,3 +396,4 @@ for cat, feats in feature_categories.items():
         print(f"  - {cat}: {len(feats)} features")
 print(f"\nReady for feature selection (Phase 4)")
 print("="*80)
+
