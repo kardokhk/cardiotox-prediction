@@ -9,7 +9,7 @@ Goals:
 4. Analyze hyperparameter importance
 5. Select best hyperparameters based on ROC AUC
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -473,3 +473,4 @@ print(f"   - Visualizations: 4 figures saved to {RESULTS_DIR}")
 print("\n" + "="*80)
 print("Ready for Phase 8: Advanced Techniques (SMOTE, Sampling)")
 print("="*80)
+
