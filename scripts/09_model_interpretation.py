@@ -6,7 +6,7 @@ Comprehensive interpretation of the best model (rfe_selected, 40 features)
 - Partial dependence plots
 - Individual prediction explanations
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -561,3 +561,4 @@ print(f"\n✓ Results documented in: interpretation_results.json")
 print("\n" + "="*80)
 print("✓ Ready for Phase 10: Results Documentation")
 print("="*80)
+
