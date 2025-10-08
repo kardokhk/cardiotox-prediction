@@ -9,7 +9,7 @@ Issues addressed:
 4. Risk stratification for clinical use
 5. Proper sensitivity/specificity reporting
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
