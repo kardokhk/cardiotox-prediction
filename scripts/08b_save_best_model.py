@@ -3,7 +3,7 @@ Phase 9B: Save Best Model (RFE_selected)
 Based on Phase 9 results, rfe_selected achieved highest Test AUC (0.7960)
 This script trains and saves the final best model with rfe_selected features
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -242,3 +242,4 @@ print(f"   - final_best_model_card.json (complete model documentation)")
 print("\n" + "="*80)
 print("✓ Ready for Phase 9: Model Interpretation")
 print("="*80)
+
