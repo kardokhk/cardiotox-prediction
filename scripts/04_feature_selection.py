@@ -9,7 +9,7 @@ Methods:
 4. Recursive Feature Elimination
 5. SHAP-based selection
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -377,3 +377,4 @@ print(f"  - Compare with RFE selected features")
 print(f"  - Iterate based on model performance")
 print(f"\nReady for baseline model (Phase 5)")
 print("="*80)
+
