@@ -9,7 +9,7 @@ This script creates a complete deployment package including:
 - Model metadata and configuration
 - Usage instructions and examples
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -1142,3 +1142,4 @@ The model is now ready for clinical deployment! 🎉
 """)
 
 print("="*80)
+
