@@ -9,7 +9,7 @@ Iterations:
 4. Regularization (reg_alpha, reg_lambda, gamma)
 5. Imbalance handling (scale_pos_weight, max_delta_step)
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -507,3 +507,4 @@ print(f"   - Visualizations: 2 figures saved to {RESULTS_DIR}")
 print("\n" + "="*80)
 print("Ready for Phase 7: Comprehensive Hyperparameter Search")
 print("="*80)
+
