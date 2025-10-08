@@ -8,7 +8,7 @@ Comprehensive documentation and visualization for the best model (RFE-selected, 
 - Hyperparameter documentation
 - Feature importance rankings
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -825,3 +825,4 @@ print("All documentation files saved to:")
 print(f"   Figures: {FIGURES_DIR}")
 print(f"   Tables: {TABLES_DIR}")
 print("="*80)
+
