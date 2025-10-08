@@ -2,7 +2,7 @@
 Phase 1: Exploratory Data Analysis (EDA)
 Comprehensive analysis of the cardiotoxicity dataset
 
-Author: Competition Submission
+Author: Kardokh Kaka Bra
 Date: October 2025
 """
 
@@ -422,3 +422,4 @@ print(f"  - Missing data: ~50 patients missing treatment/risk data")
 print(f"  - Mean LVEF: {df['LVEF'].mean():.1f}%")
 print(f"  - Mean age: {df['age'].mean():.1f} years")
 print("="*80)
+
